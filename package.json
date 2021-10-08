@@ -1,0 +1,32 @@
+{
+  "name": "Telephones",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^6.2.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jquery": "^3.6.0",
+    "mongoose": "^6.0.4",
+    "nodemon": "^2.0.12",
+    "npm-client-modules": "0.0.1",
+    "react-hook-form": "^7.17.1",
+    "react-script-tag": "^1.1.2",
+    "react-to-print": "^2.13.0",
+    "react-toastify": "^8.0.3",
+    "validator": "^13.6.0"
+  }
+}
